@@ -105,10 +105,34 @@ title: Accueil
                   <span class="bg-[#a855f7] text-white px-2 py-1 rounded text-xs">JSX</span>
                 </div>
                 <div class="flex gap-2">
-                  <a href="#" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
+                  <a href="https://iaemg.org/" target="_blank" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
-                  <a href="#" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/iae" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
+                    <i class="fab fa-github mr-1"></i> GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide h-full flex flex-col justify-between bg-white rounded-xl shadow-lg border border-[#d8b4fe] overflow-hidden p-4 min-h-[380px]">
+            <img src="{{ '/images/marina.png' | relative_url }}" alt="Île aux enfants" class="h-40 w-full object-cover object-top rounded" />
+            <div class="flex flex-col flex-grow justify-between mt-4">
+              <div>
+                <h3 class="font-bold text-lg text-[#7f00ff]">Marina de Nosy be</h3>
+                <p class="text-sm text-gray-700 mt-1">La Marina de Nosy Be, autrefois site sucrier SIRAMA, se dresse dans la Baie du Cratère.</p>
+              </div>
+              <div class="mt-3">
+                <div class="flex flex-wrap gap-2 mb-3">
+                  <span class="bg-[#7f00ff] text-white px-2 py-1 rounded text-xs">Symfony/Twig</span>
+                  <span class="bg-[#a855f7] text-white px-2 py-1 rounded text-xs">Vue.js</span>
+                  <span class="bg-[#a855f7] text-white px-2 py-1 rounded text-xs">JSX</span>
+                </div>
+                <div class="flex gap-2">
+                  <a href="https://marina-madagascar.com/" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
+                    🔗 Voir le site
+                  </a>
+                  <a href="https://github.com/njakatianadev/marina" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
@@ -129,7 +153,7 @@ title: Accueil
                   <span class="bg-[#a855f7] text-white px-2 py-1 rounded text-xs">JSX</span>
                 </div>
                 <div class="flex gap-2">
-                  <a href="#" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/location-voiture-suisse" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
@@ -149,10 +173,10 @@ title: Accueil
                   <span class="bg-[#a855f7] text-white px-2 py-1 rounded text-xs">Twig</span>
                 </div>
                 <div class="flex gap-2">
-                  <a href="#" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
+                  <a href="https://www.madakitecamp.com/" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
-                  <a href="#" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/madakitecamp" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
@@ -186,8 +210,16 @@ title: Accueil
       <!-- Infos -->
       <div class="space-y-6">
         <div class="bg-white shadow-lg border border-[#d8b4fe] backdrop-blur-md p-6 rounded-xl">
-          <p class="flex items-center gap-3"><i class="fas fa-phone text-[#7f00ff]"></i> +261 34 28 089 52</p>
-          <p class="flex items-center gap-3 mt-2"><i class="fas fa-envelope text-[#7f00ff]"></i> andriambololomahefa@gmail.com</p>
+          <p class="flex items-center gap-3">
+            <a href="tel:+261342808952">
+              <i class="fas fa-phone text-[#7f00ff]"></i> +261 34 28 089 52
+            </a>
+          </p>
+          <p class="flex items-center gap-3 mt-2">
+            <a href="mailto:andriambololomahefa@gmail.com">
+              <i class="fas fa-envelope text-[#7f00ff]"></i> andriambololomahefa@gmail.com
+            </a>
+          </p>
         </div>
         <div class="text-white bg-gradient-to-r from-[#7f00ff] to-[#a855f7] backdrop-blur-md p-6 rounded-xl bg-opacity-80">
           <p class="mb-2 font-semibold">Réseaux sociaux</p>
