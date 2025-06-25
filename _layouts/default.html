@@ -210,12 +210,13 @@
       const swiper = new Swiper(".swiper", {
         slidesPerView: 1.2,
         spaceBetween: 20,
-        loop: true, // pour que ça recommence à la fin
+        loop: true,
         autoplay: {
-          delay: 3000, // en millisecondes (3 secondes ici)
-          disableOnInteraction: false, // continue même après une interaction
+          delay: 3000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true, // ← Cette ligne arrête l’autoplay au survol
         },
-        centeredSlides: true, // ✅ Pour centrer les slides
+        centeredSlides: true,
 
         breakpoints: {
           640: {
@@ -224,7 +225,7 @@
           },
           1024: {
             slidesPerView: 3,
-            centeredSlides: true, // ou false si tu veux aligné à gauche en desktop
+            centeredSlides: true,
           },
         },
 

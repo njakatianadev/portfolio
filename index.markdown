@@ -81,10 +81,10 @@ title: Accueil
                   <span class="bg-[#a855f7] text-white px-2 py-1 rounded text-xs">Tailwind</span>
                 </div>
                 <div class="flex gap-2">
-                  <a href="#" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
+                  <a href="https://njakatianadev.github.io/portfolio/" target="_blank" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
-                  <a href="https://github.com/ton-repo" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/portfolio" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
@@ -129,10 +129,10 @@ title: Accueil
                   <span class="bg-[#a855f7] text-white px-2 py-1 rounded text-xs">JSX</span>
                 </div>
                 <div class="flex gap-2">
-                  <a href="https://marina-madagascar.com/" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
+                  <a href="https://marina-madagascar.com/" target="_blank" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
-                  <a href="https://github.com/njakatianadev/marina" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/marina" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
@@ -153,7 +153,7 @@ title: Accueil
                   <span class="bg-[#a855f7] text-white px-2 py-1 rounded text-xs">JSX</span>
                 </div>
                 <div class="flex gap-2">
-                  <a href="https://github.com/njakatianadev/location-voiture-suisse" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/location-voiture-suisse" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
@@ -173,10 +173,10 @@ title: Accueil
                   <span class="bg-[#a855f7] text-white px-2 py-1 rounded text-xs">Twig</span>
                 </div>
                 <div class="flex gap-2">
-                  <a href="https://www.madakitecamp.com/" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
+                  <a href="https://www.madakitecamp.com/" target="_blank" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
-                  <a href="https://github.com/njakatianadev/madakitecamp" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/madakitecamp" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
@@ -198,7 +198,6 @@ title: Accueil
     </div>
   </div>
 </section>
->
 
 <section id="contact" class="py-26 dark:bg-black/50 backdrop-blur-sm text-gray-800 dark:text-white">
   <div class="max-w-6xl mx-auto px-4" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
