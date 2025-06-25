@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/dist-main.css' | prepend: site.baseurl }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body
+    class="scroll-smooth font-inter"
+    style="
+      background: linear-gradient(
+        180deg,
+        #1a0a40 0%,
+        #e8e0ff 40%,
+        #ffffff 100%
+      );
+    "
+  >
+    <header
+      id="header"
+      class="text-white fixed top-0 left-0 w-full z-50 transition-all duration-300"
+    >
+      <div
+        id="nav-menu"
+        class="border-b border-white max-w-7xl mx-auto px-4 py-4 flex items-center justify-between w-full"
+      >
+        <!-- Logo -->
+        <div class="flex-shrink-0 text-lg font-semibold">
+          <a href="#" class="font-bold"
+            >Solofo Njakatiana
+            <span class="text-white font-normal">ANDRIAMBOLOLOMAHEFA</span></a
+          >
+        </div>
+
+        <!-- Burger Icon -->
+        <button class="md:hidden" id="menu-toggle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+
+        <!-- Navigation -->
+        <div class="flex-1 text-center hidden md:flex justify-center space-x-6">
+          <a href="#about" class="hover:text-[#7300FF]">À PROPOS DE MOI</a>
+          <a href="#projects" class="hover:text-[#7300FF]">MES PROJETS</a>
+          <a href="#contact" class="hover:text-[#7300FF]">CONTACT</a>
+        </div>
+
+        <!-- Partie droite : Bouton CV -->
+        <div class="flex-shrink-0 md:flex hidden">
+          <a
+            href="{{ '/assets/CV_Andriambololomahefa_Solofo_Njakatiana.pdf' | relative_url }}"
+            download
+            class="bg-[#7300FF] hover:bg-[#5e00cc] text-white font-semibold text-base px-6 py-2.5 rounded-full transition"
+          >
+            Téléchargez mon CV
+          </a>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        class="md:hidden hidden px-4 pb-4 bg-[#1A0A40]/70 backdrop-blur-md transition-all duration-300"
+        id="mobile-menu"
+      >
+        <a href="#about" class="block py-2 hover:text-[#7300FF]"
+          >À PROPOS DE MOI</a
+        >
+        <a href="#projects" class="block py-2 hover:text-[#7300FF]"
+          >MES PROJETS</a
+        >
+        <a href="#contact" class="block py-2 hover:text-[#7300FF]">CONTACT</a>
+        <a
+          href="{{ '/assets/CV_Andriambololomahefa_Solofo_Njakatiana.pdf' | relative_url }}"
+          download
+          class="block mt-2 border border-[#5e00cc] text-[#5e00cc] px-4 py-2 rounded hover:bg-[#5e00cc] hover:text-black transition duration-300"
+          >Téléchargez mon CV</a
+        >
+      </div>
+    </header>
+
+    <section id="hero">
+      <div
+        class="relative w-full h-screen text-white overflow-hidden pt-24 md:pt-32"
+        data-aos="fade-up"
+        data-aos-delay="400"
+        data-aos-duration="1000"
+      >
+        <!-- Image de fond -->
+        <img
+          src="{{ '/images/banner.jpg' | relative_url }}"
+          alt="Clavier sombre"
+          class="absolute inset-0 w-full h-full object-cover brightness-40 z-0"
+        />
+
+        <!-- Dégradé au-dessus de l'image, sous les textes -->
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-[#1A0A40] via-[#E8E0FF] to-white opacity-80 z-10"
+        ></div>
+
+        <!-- Contenu principal -->
+        <div
+          class="max-w-7xl mx-auto relative z-20 h-full flex items-center px-4"
+        >
+          <div
+            class="flex flex-col items-center md:items-start text-center md:text-left"
+          >
+            <p class="text-sm uppercase tracking-wide text-white/70">
+              Développeur web passionné
+            </p>
+
+            <h1 class="text-5xl md:text-6xl font-bold my-4 leading-tight">
+              Je suis un<br />
+              <span class="text-white drop-shadow">développeur Symfony</span>
+            </h1>
+
+            <p class="text-lg text-violet-100 mb-4 drop-shadow-md">
+              Symfony · Tailwind CSS · JavaScript · Jekyll
+            </p>
+
+            <p class="text-md text-white/90 mb-6 max-w-md drop-shadow-md">
+              Je conçois des sites web performants, modernes et maintenables, en
+              mettant l'accent sur la qualité du code et l'expérience
+              utilisateur.
+            </p>
+
+            <div class="flex space-x-4 mb-6 justify-center md:justify-start">
+              <a
+                href="https://web.facebook.com/solofonjakatiana.andriambololomahefa.7/"
+                aria-label="Facebook"
+                target="_blank"
+                class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 text-[#7f00ff] hover:bg-[#7f00ff] hover:text-white transition duration-300 border border-[#7300FF]"
+              >
+                <i class="fab fa-facebook-f text-lg"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/solofo-njakatiana-andriambololomahefa-b633911a3/"
+                aria-label="LinkedIn"
+                target="_blank"
+                class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 text-[#7f00ff] hover:bg-[#7f00ff] hover:text-white transition duration-300 border border-[#7300FF]"
+              >
+                <i class="fab fa-linkedin-in text-lg"></i>
+              </a>
+              <a
+                href="https://github.com/njakatianadev"
+                aria-label="GitHub"
+                target="_blank"
+                class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 text-[#7f00ff] hover:bg-[#7f00ff] hover:text-white transition duration-300 border border-[#7300FF]"
+              >
+                <i class="fab fa-github text-lg"></i>
+              </a>
+            </div>
+
+            <div
+              class="flex flex-wrap justify-center md:justify-start space-x-4"
+            >
+              <a
+                href="#contact"
+                class="bg-[#7300FF] hover:bg-[#5e00cc] text-white font-semibold text-base px-6 py-2.5 rounded-full shadow-md hover:shadow-lg transition"
+              >
+                Recrutez-moi
+              </a>
+              <a
+                href="{{ '/assets/CV_Andriambololomahefa_Solofo_Njakatiana.pdf' | relative_url }}"
+                download
+                class="bg-[#B088FF]/40 hover:bg-[#B088FF]/50 text-[#7300FF] border border-[#7300FF] font-semibold text-base px-6 py-2.5 rounded-full transition"
+              >
+                Téléchargez mon CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>{{ content }}</main>
+    <footer class="text-center text-gray-500 text-sm py-6">
+      © {{ site.time | date: "%Y" }} Mon Portfolio – Tous droits réservés.
+    </footer>
+    <script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        slidesPerView: 1.2,
+        spaceBetween: 20,
+        loop: true, // pour que ça recommence à la fin
+        autoplay: {
+          delay: 3000, // en millisecondes (3 secondes ici)
+          disableOnInteraction: false, // continue même après une interaction
+        },
+        centeredSlides: true, // ✅ Pour centrer les slides
+
+        breakpoints: {
+          640: {
+            slidesPerView: 2.2,
+            centeredSlides: true,
+          },
+          1024: {
+            slidesPerView: 3,
+            centeredSlides: true, // ou false si tu veux aligné à gauche en desktop
+          },
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      AOS.init();
+    </script>
+  </body>
+</html>
