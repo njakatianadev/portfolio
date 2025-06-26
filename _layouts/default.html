@@ -33,7 +33,7 @@
   >
     <header
       id="header"
-      class="text-white fixed top-0 left-0 w-full z-50 transition-all duration-300"
+      class="text-white fixed top-0 left-0 w-[98%] lg:w-full z-50 transition-all duration-300"
     >
       <div
         id="nav-menu"
@@ -41,14 +41,14 @@
       >
         <!-- Logo -->
         <div class="flex-shrink-0 text-lg font-semibold">
-          <a href="#" class="font-bold"
-            >Solofo Njakatiana
-            <span class="text-white font-normal">ANDRIAMBOLOLOMAHEFA</span></a
-          >
+          <a href="#" class="font-bold">
+            <span class="hidden lg:inline">Solofo Njakatiana </span>
+            <span class="text-white font-normal">ANDRIAMBOLOLOMAHEFA</span>
+          </a>
         </div>
 
         <!-- Burger Icon -->
-        <button class="md:hidden" id="menu-toggle">
+        <button class="lg:hidden" id="menu-toggle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-8 w-8"
@@ -66,14 +66,14 @@
         </button>
 
         <!-- Navigation -->
-        <div class="flex-1 text-center hidden md:flex justify-center space-x-6">
+        <div class="flex-1 text-center hidden lg:flex justify-center space-x-6">
           <a href="#about" class="hover:text-[#7300FF]">À PROPOS DE MOI</a>
           <a href="#projects" class="hover:text-[#7300FF]">MES PROJETS</a>
           <a href="#contact" class="hover:text-[#7300FF]">CONTACT</a>
         </div>
 
         <!-- Partie droite : Bouton CV -->
-        <div class="flex-shrink-0 md:flex hidden">
+        <div class="flex-shrink-0 lg:flex hidden">
           <a
             href="{{ '/assets/CV_Andriambololomahefa_Solofo_Njakatiana.pdf' | relative_url }}"
             download
@@ -86,7 +86,7 @@
 
       <!-- Mobile Menu -->
       <div
-        class="md:hidden hidden px-4 pb-4 bg-[#1A0A40]/70 backdrop-blur-md transition-all duration-300"
+        class="lg:hidden hidden px-4 pb-4 bg-[#1A0A40]/70 backdrop-blur-md transition-all duration-300"
         id="mobile-menu"
       >
         <a href="#about" class="block py-2 hover:text-[#7300FF]"
@@ -129,7 +129,7 @@
           class="max-w-7xl mx-auto relative z-20 h-full flex items-center px-4"
         >
           <div
-            class="flex flex-col items-center md:items-start text-center md:text-left"
+            class="flex flex-col items-center lg:items-start text-center lg:text-left mx-auto lg:mx-0"
           >
             <p class="text-sm uppercase tracking-wide text-white/70">
               Développeur web passionné
@@ -182,14 +182,14 @@
             >
               <a
                 href="#contact"
-                class="bg-[#7300FF] hover:bg-[#5e00cc] text-white font-semibold text-base px-6 py-2.5 rounded-full shadow-md hover:shadow-lg transition"
+                class="bg-[#7300FF] hover:bg-[#5e00cc] text-white font-semibold text-base px-6 py-2.5 mb-3 rounded-full shadow-md hover:shadow-lg transition"
               >
                 Recrutez-moi
               </a>
               <a
                 href="{{ '/assets/CV_Andriambololomahefa_Solofo_Njakatiana.pdf' | relative_url }}"
                 download
-                class="bg-[#B088FF]/40 hover:bg-[#B088FF]/50 text-[#7300FF] border border-[#7300FF] font-semibold text-base px-6 py-2.5 rounded-full transition"
+                class="bg-[#B088FF]/40 hover:bg-[#B088FF]/50 text-[#7300FF] border border-[#7300FF] font-semibold text-base px-6 py-2.5 rounded-full transition mb-3"
               >
                 Téléchargez mon CV
               </a>

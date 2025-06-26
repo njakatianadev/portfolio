@@ -7,7 +7,7 @@ title: Accueil
 ---
 
 <section id="about" class="text-gray-800 pt-26 px-6">
-  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+  <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
     <div class="flex flex-col items-center md:items-start mx-auto">
       <img src="{{ '/images/moi.jpg' | relative_url }}" alt="Photo de profil"
            class="w-40 h-40 rounded-full object-cover -mb-16 border-4 border-[#7f00ff] mx-auto relative z-10" />
@@ -46,15 +46,15 @@ title: Accueil
         <span class="border border-[#7f00ff] text-[#7f00ff] px-3 py-1 rounded-full">Photoshop</span>
         <span class="border border-[#7f00ff] text-[#7f00ff] px-3 py-1 rounded-full">Illustrator</span>
       </div>
-      <div class="flex space-x-4">
+      <div class="flex flex-wrap space-x-4">
         <a href="#contact"
-           class="bg-[#7f00ff] text-white px-5 py-2 rounded-full hover:bg-[#6b21a8] transition">
+           class="bg-[#7f00ff] mb-3 text-white px-5 py-2 rounded-full hover:bg-[#6b21a8] transition">
           Recrutez-moi
         </a>
         <a 
           href="{{ '/assets/CV_Andriambololomahefa_Solofo_Njakatiana.pdf' | relative_url }}"
           download
-          class="border border-[#7f00ff] text-[#7f00ff] bg-[#B088FF]/40 px-5 py-2 rounded-full transition">
+          class="border mb-3 border-[#7f00ff] text-[#7f00ff] bg-[#B088FF]/40 px-5 py-2 rounded-full transition">
           Téléchargez mon CV
         </a>
       </div>
@@ -81,7 +81,7 @@ title: Accueil
                   <span class="bg-[#a855f7] text-white px-2 py-1 rounded text-xs">Tailwind</span>
                 </div>
                 <div class="flex gap-2">
-                  <a href="https://njakatianadev.github.io/portfolio/" target="_blank" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
+                  <a href="https://njakatianadev.github.io/portfolio/" target="_blank"  class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
                   <a href="https://github.com/njakatianadev/portfolio" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
@@ -185,12 +185,12 @@ title: Accueil
           </div>
         </div>
       </div>
-      <div class="swiper-button-prev group absolute top-1/2 -translate-y-1/2 z-10 w-10 h-10 left-[-50px]
+      <div class="swiper-button-prev group absolute top-1/2 -translate-y-1/2 z-10 w-10 h-10 left-2 lg:left-[-50px]
                   flex items-center justify-center bg-white/30 backdrop-blur-md text-purple-600 border border-purple-500
                   rounded-full hover:bg-purple-600 transition duration-300" style="left: -50px;">
         <i class="fas fa-chevron-left text-purple-600 group-hover:text-white text-sm"></i>
       </div>
-      <div class="swiper-button-next group absolute top-1/2 -translate-y-1/2 z-10 w-10 h-10 right-[-50px]
+      <div class="swiper-button-next group absolute top-1/2 -translate-y-1/2 z-10 w-10 h-10 right-2 lg:right-[-50px]
                   flex items-center justify-center bg-white/30 backdrop-blur-md text-purple-600 border border-purple-500
                   rounded-full hover:bg-purple-600 transition duration-300" style="right: -50px;">
         <i class="fas fa-chevron-right text-purple-600 group-hover:text-white text-sm"></i>
@@ -205,7 +205,7 @@ title: Accueil
     <p class="mt-4 text-center max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
       Vous cherchez un développeur passionné, rigoureux et motivé ? Je suis à la recherche d’une opportunité pour mettre mes compétences au service de votre entreprise. N’hésitez pas à me contacter pour en discuter.
     </p>
-    <div class="mt-12 grid md:grid-cols-2 gap-10 ">
+    <div class="mt-12 grid lg:grid-cols-2 gap-10 ">
       <!-- Infos -->
       <div class="space-y-6">
         <div class="bg-white shadow-lg border border-[#d8b4fe] backdrop-blur-md p-6 rounded-xl">
