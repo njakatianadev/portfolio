@@ -6,7 +6,7 @@ layout: default
 title: Accueil
 ---
 
-<section id="about" class="text-gray-800 pt-26 px-6">
+<section id="about" class="pt-26 px-6 bg-[#2a2141] text-white">
   <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
     <div class="flex flex-col items-center md:items-start mx-auto">
       <img src="{{ '/images/moi.jpg' | relative_url }}" alt="Photo de profil"
@@ -23,28 +23,28 @@ title: Accueil
         </div>
       </div>
     </div>
-    <div class="bg-white rounded-[10px] p-8">
-      <h2 class="text-3xl md:text-4xl font-bold text-[#7f00ff] mb-6">À propos de moi</h2>
-      <p class="text-lg mb-4 leading-relaxed">
+    <div class="bg-[#1f1a2e] rounded-[10px] p-8 text-white">
+      <h2 class="text-3xl md:text-4xl font-bold text-[#a855f7] mb-6">À propos de moi</h2>
+      <p class="text-lg mb-4 leading-relaxed text-gray-300">
         Je suis un développeur web full-stack spécialisé Symfony. Je crée des sites performants, élégants et bien structurés,
         avec une forte attention à l'expérience utilisateur, au responsive et à l’accessibilité.
       </p>
-      <p class="text-lg mb-6">
+      <p class="text-lg mb-6 text-gray-300">
         Mon portfolio, conçu avec Jekyll et Tailwind CSS, démontre ma capacité à intégrer des interfaces modernes, rapides et propres.
       </p>
-      <h3 class="text-xl font-semibold mb-3 text-[#7f00ff]">Compétences techniques</h3>
+      <h3 class="text-xl font-semibold mb-3 text-[#a855f7]">Compétences techniques</h3>
       <div class="flex flex-wrap gap-2 mb-6 text-sm">
-        <span class="border border-[#7f00ff] text-[#7f00ff] px-3 py-1 rounded-full">Symfony</span>
-        <span class="border border-[#7f00ff] text-[#7f00ff] px-3 py-1 rounded-full">PHP</span>
-        <span class="border border-[#7f00ff] text-[#7f00ff] px-3 py-1 rounded-full">Tailwind CSS</span>
-        <span class="border border-[#7f00ff] text-[#7f00ff] px-3 py-1 rounded-full">Vue.js</span>
-        <span class="border border-[#7f00ff] text-[#7f00ff] px-3 py-1 rounded-full">JSX</span>
-        <span class="border border-[#7f00ff] text-[#7f00ff] px-3 py-1 rounded-full">Bootstrap</span>
-        <span class="border border-[#7f00ff] text-[#7f00ff] px-3 py-1 rounded-full">MySQL</span>
-        <span class="border border-[#7f00ff] text-[#7f00ff] px-3 py-1 rounded-full">Git</span>
-        <span class="border border-[#7f00ff] text-[#7f00ff] px-3 py-1 rounded-full">Figma</span>
-        <span class="border border-[#7f00ff] text-[#7f00ff] px-3 py-1 rounded-full">Photoshop</span>
-        <span class="border border-[#7f00ff] text-[#7f00ff] px-3 py-1 rounded-full">Illustrator</span>
+        <span class="border border-[#a855f7] text-[#a855f7] px-3 py-1 rounded-full">Symfony</span>
+        <span class="border border-[#a855f7] text-[#a855f7] px-3 py-1 rounded-full">PHP</span>
+        <span class="border border-[#a855f7] text-[#a855f7] px-3 py-1 rounded-full">Tailwind CSS</span>
+        <span class="border border-[#a855f7] text-[#a855f7] px-3 py-1 rounded-full">Vue.js</span>
+        <span class="border border-[#a855f7] text-[#a855f7] px-3 py-1 rounded-full">JSX</span>
+        <span class="border border-[#a855f7] text-[#a855f7] px-3 py-1 rounded-full">Bootstrap</span>
+        <span class="border border-[#a855f7] text-[#a855f7] px-3 py-1 rounded-full">MySQL</span>
+        <span class="border border-[#a855f7] text-[#a855f7] px-3 py-1 rounded-full">Git</span>
+        <span class="border border-[#a855f7] text-[#a855f7] px-3 py-1 rounded-full">Figma</span>
+        <span class="border border-[#a855f7] text-[#a855f7] px-3 py-1 rounded-full">Photoshop</span>
+        <span class="border border-[#a855f7] text-[#a855f7] px-3 py-1 rounded-full">Illustrator</span>
       </div>
       <div class="flex flex-wrap space-x-4">
         <a href="#contact"
@@ -54,7 +54,7 @@ title: Accueil
         <a 
           href="{{ '/assets/CV_Andriambololomahefa_Solofo_Njakatiana.pdf' | relative_url }}"
           download
-          class="border mb-3 border-[#7f00ff] text-[#7f00ff] bg-[#B088FF]/40 px-5 py-2 rounded-full transition">
+          class="border mb-3 border-[#a855f7] text-[#a855f7] px-5 py-2 rounded-full transition">
           Téléchargez mon CV
         </a>
       </div>
@@ -62,18 +62,18 @@ title: Accueil
   </div>
 </section>
 
-<section id="projects" class="pt-26 text-gray-900">
+<section id="projects" class="pt-26 text-gray-900 overflow-hidden">
   <div class="max-w-7xl mx-auto px-6" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
     <h2 class="text-3xl font-bold text-center text-[#7f00ff] mb-12">Mes Projets</h2>
     <div class="spr-container relative overflow-visible">
       <div class="swiper relative">
         <div class="swiper-wrapper">
-          <div class="swiper-slide h-full flex flex-col justify-between bg-white rounded-xl shadow-lg border border-[#d8b4fe] overflow-hidden p-4 min-h-[380px]">
+          <div class="swiper-slide bg-[#1f1a2e] text-white h-full flex flex-col justify-between rounded-xl shadow-lg border border-[#d8b4fe] overflow-hidden p-4 min-h-[380px]">
             <img src="{{ '/images/portfolio.png' | relative_url }}" alt="Portfolio Symfony" class="h-40 w-full object-cover object-top rounded" />
             <div class="flex flex-col flex-grow justify-between mt-4">
               <div>
-                <h3 class="font-bold text-lg text-[#7f00ff]">Portfolio</h3>
-                <p class="text-sm text-gray-700 mt-1">Portfolio personnel développé en Jekyll et Tailwind CSS.</p>
+                <h3 class="font-bold text-lg">Portfolio</h3>
+                <p class="text-sm mt-1">Portfolio personnel développé en Jekyll et Tailwind CSS.</p>
               </div>
               <div class="mt-3">
                 <div class="flex flex-wrap gap-2 mb-3">
@@ -84,19 +84,19 @@ title: Accueil
                   <a href="https://njakatianadev.github.io/portfolio/" target="_blank"  class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
-                  <a href="https://github.com/njakatianadev/portfolio" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/portfolio" target="_blank" class="inline-flex items-center px-3 py-1 border border-graytext-whitete rounded hover:bg-gray-100 transition text-sm">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide h-full flex flex-col justify-between bg-white rounded-xl shadow-lg border border-[#d8b4fe] overflow-hidden p-4 min-h-[380px]">
+          <div class="swiper-slide bg-[#1f1a2e] text-white h-full flex flex-col justify-between rounded-xl shadow-lg border border-[#d8b4fe] overflow-hidden p-4 min-h-[380px]">
             <img src="{{ '/images/iae.jpg' | relative_url }}" alt="Île aux enfants" class="h-40 w-full object-cover object-top rounded" />
             <div class="flex flex-col flex-grow justify-between mt-4">
               <div>
-                <h3 class="font-bold text-lg text-[#7f00ff]">L'île aux enfants</h3>
-                <p class="text-sm text-gray-700 mt-1">Une école associative au service des enfants</p>
+                <h3 class="font-bold text-lg">L'île aux enfants</h3>
+                <p class="text-sm mt-1">Une école associative au service des enfants</p>
               </div>
               <div class="mt-3">
                 <div class="flex flex-wrap gap-2 mb-3">
@@ -108,19 +108,19 @@ title: Accueil
                   <a href="https://iaemg.org/" target="_blank" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
-                  <a href="https://github.com/njakatianadev/iae" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/iae" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-whiteunded rounded hover:bg-gray-100 transition text-sm">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide h-full flex flex-col justify-between bg-white rounded-xl shadow-lg border border-[#d8b4fe] overflow-hidden p-4 min-h-[380px]">
+          <div class="swiper-slide bg-[#1f1a2e] text-white h-full flex flex-col justify-between rounded-xl shadow-lg border border-[#d8b4fe] overflow-hidden p-4 min-h-[380px]">
             <img src="{{ '/images/marina.png' | relative_url }}" alt="Île aux enfants" class="h-40 w-full object-cover object-top rounded" />
             <div class="flex flex-col flex-grow justify-between mt-4">
               <div>
-                <h3 class="font-bold text-lg text-[#7f00ff]">Marina de Nosy be</h3>
-                <p class="text-sm text-gray-700 mt-1">La Marina de Nosy Be, autrefois site sucrier SIRAMA, se dresse dans la Baie du Cratère.</p>
+                <h3 class="font-bold text-lg">Marina de Nosy be</h3>
+                <p class="text-sm mt-1">La Marina de Nosy Be, autrefois site sucrier SIRAMA, se dresse dans la Baie du Cratère.</p>
               </div>
               <div class="mt-3">
                 <div class="flex flex-wrap gap-2 mb-3">
@@ -132,19 +132,19 @@ title: Accueil
                   <a href="https://marina-madagascar.com/" target="_blank" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
-                  <a href="https://github.com/njakatianadev/marina" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/marblank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-white rounded hover:bg-gray-100 transition text-sm">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide h-full flex flex-col justify-between bg-white rounded-xl shadow-lg border border-[#d8b4fe] overflow-hidden p-4 min-h-[380px]">
+          <div class="swiper-slide bg-[#1f1a2e] text-white h-full flex flex-col justify-between rounded-xl shadow-lg border border-[#d8b4fe] overflow-hidden p-4 min-h-[380px]">
             <img src="{{ '/images/location_voiture.png' | relative_url }}" alt="Location de voiture" class="h-40 w-full object-cover object-top rounded" />
             <div class="flex flex-col flex-grow justify-between mt-4">
               <div>
-                <h3 class="font-bold text-lg text-[#7f00ff]">Location de voiture</h3>
-                <p class="text-sm text-gray-700 mt-1">Un site internet de location de véhicules en Suisse</p>
+                <h3 class="font-bold text-lg">Location de voiture</h3>
+                <p class="text-sm mt-1">Un site internet de location de véhicules en Suisse</p>
               </div>
               <div class="mt-3">
                 <div class="flex flex-wrap gap-2 mb-3">
@@ -153,19 +153,19 @@ title: Accueil
                   <span class="bg-[#a855f7] text-white px-2 py-1 rounded text-xs">JSX</span>
                 </div>
                 <div class="flex gap-2">
-                  <a href="https://github.com/njakatianadev/location-voiture-suisse" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/location-voiture-suisse" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 rounded hover:bg-gray-100 transition text-sm">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide h-full flex flex-col justify-between bg-white rounded-xl shadow-lg border border-[#d8b4fe] overflow-hidden p-4 min-h-[380px]">
+          <div class="swiper-slide bg-[#1f1a2e] text-white h-full flex flex-col justify-between rounded-xl shadow-lg border border-[#d8b4fe] overflow-hidden p-4 min-h-[380px]">
             <img src="{{ '/images/madakite.png' | relative_url }}" alt="Madakitecamp" class="h-40 w-full object-cover object-top rounded" />
             <div class="flex flex-col flex-grow justify-between mt-4">
               <div>
-                <h3 class="font-bold text-lg text-[#7f00ff]">Madakitecamp</h3>
-                <p class="text-sm text-gray-700 mt-1">Un lodge unique en bord de mer à la Baie de Sakalava</p>
+                <h3 class="font-bold text-lg">Madakitecamp</h3>
+                <p class="text-sm mt-1">Un lodge unique en bord de mer à la Baie de Sakalava</p>
               </div>
               <div class="mt-3">
                 <div class="flex flex-wrap gap-2 mb-3">
@@ -176,7 +176,7 @@ title: Accueil
                   <a href="https://www.madakitecamp.com/" target="_blank" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
-                  <a href="https://github.com/njakatianadev/madakitecamp" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-gray-700 rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/madakitecamp" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-white rounded hover:bg-gray-100 transition text-sm">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
@@ -185,13 +185,13 @@ title: Accueil
           </div>
         </div>
       </div>
-      <div class="swiper-button-prev group absolute top-1/2 -translate-y-1/2 z-10 w-10 h-10 left-2 lg:left-[-50px]
-                  flex items-center justify-center bg-white/30 backdrop-blur-md text-purple-600 border border-purple-500
+      <div class="hidden lg:flex swiper-button-prev group absolute top-1/2 -translate-y-1/2 z-10 w-10 h-10 left-2 lg:left-[-50px]
+                 items-center justify-center backdrop-blur-md text-purple-600 border border-purple-500
                   rounded-full hover:bg-purple-600 transition duration-300" style="left: -50px;">
         <i class="fas fa-chevron-left text-purple-600 group-hover:text-white text-sm"></i>
       </div>
-      <div class="swiper-button-next group absolute top-1/2 -translate-y-1/2 z-10 w-10 h-10 right-2 lg:right-[-50px]
-                  flex items-center justify-center bg-white/30 backdrop-blur-md text-purple-600 border border-purple-500
+      <div class="hidden lg:flex swiper-button-next group absolute top-1/2 -translate-y-1/2 z-10 w-10 h-10 right-2 lg:right-[-50px]
+                 items-center justify-center backdrop-blur-md text-purple-600 border border-purple-500
                   rounded-full hover:bg-purple-600 transition duration-300" style="right: -50px;">
         <i class="fas fa-chevron-right text-purple-600 group-hover:text-white text-sm"></i>
       </div>
@@ -202,7 +202,7 @@ title: Accueil
 <section id="contact" class="py-26 dark:bg-black/50 backdrop-blur-sm text-gray-800 dark:text-white">
   <div class="max-w-6xl mx-auto px-4" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
     <h2 class="text-3xl md:text-4xl font-bold text-center text-[#7f00ff]">Restons en Contact</h2>
-    <p class="mt-4 text-center max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
+    <p class="mt-4 text-center max-w-2xl mx-auto text-white dark:text-gray-300">
       Vous cherchez un développeur passionné, rigoureux et motivé ? Je suis à la recherche d’une opportunité pour mettre mes compétences au service de votre entreprise. N’hésitez pas à me contacter pour en discuter.
     </p>
     <div class="mt-12 grid lg:grid-cols-2 gap-10 ">
