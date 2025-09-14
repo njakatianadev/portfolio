@@ -29,9 +29,6 @@ title: Accueil
         Je suis un développeur web full-stack spécialisé Symfony. Je crée des sites performants, élégants et bien structurés,
         avec une forte attention à l'expérience utilisateur, au responsive et à l’accessibilité.
       </p>
-      <p class="text-lg mb-6 text-gray-300">
-        Mon portfolio, conçu avec Jekyll et Tailwind CSS, démontre ma capacité à intégrer des interfaces modernes, rapides et propres.
-      </p>
       <h3 class="text-xl font-semibold mb-3 text-[#a855f7]">Compétences techniques</h3>
       <div class="flex flex-wrap gap-2 mb-6 text-sm">
         <span class="border border-[#a855f7] text-[#a855f7] px-3 py-1 rounded-full">Symfony</span>
@@ -84,7 +81,9 @@ title: Accueil
                   <a href="https://njakatianadev.github.io/portfolio/" target="_blank"  class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
-                  <a href="https://github.com/njakatianadev/portfolio" target="_blank" class="inline-flex items-center px-3 py-1 border border-graytext-whitete rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/portfolio" target="_blank"
+                    class="inline-flex items-center px-3 py-1 border border-gray-300 rounded text-sm
+                            text-gray-700 hover:bg-gray-800 hover:text-white transition duration-300">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
@@ -108,7 +107,9 @@ title: Accueil
                   <a href="https://iaemg.org/" target="_blank" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
-                  <a href="https://github.com/njakatianadev/iae" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-whiteunded rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/iae" target="_blank"
+                    class="inline-flex items-center px-3 py-1 border border-gray-300 rounded text-sm
+                            text-gray-700 hover:bg-gray-800 hover:text-white transition duration-300">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
@@ -132,7 +133,9 @@ title: Accueil
                   <a href="https://marina-madagascar.com/" target="_blank" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
-                  <a href="https://github.com/njakatianadev/marblank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-white rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/marblank" target="_blank"
+                    class="inline-flex items-center px-3 py-1 border border-gray-300 rounded text-sm
+                            text-gray-700 hover:bg-gray-800 hover:text-white transition duration-300">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
@@ -153,7 +156,9 @@ title: Accueil
                   <span class="bg-[#a855f7] text-white px-2 py-1 rounded text-xs">JSX</span>
                 </div>
                 <div class="flex gap-2">
-                  <a href="https://github.com/njakatianadev/location-voiture-suisse" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/location-voiture-suisse" target="_blank"
+                    class="inline-flex items-center px-3 py-1 border border-gray-300 rounded text-sm
+                            text-gray-700 hover:bg-gray-800 hover:text-white transition duration-300">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
@@ -176,7 +181,9 @@ title: Accueil
                   <a href="https://www.madakitecamp.com/" target="_blank" class="inline-flex items-center px-3 py-1 border border-[#7f00ff] text-[#7f00ff] rounded hover:bg-[#7f00ff] hover:text-white transition text-sm">
                     🔗 Voir le site
                   </a>
-                  <a href="https://github.com/njakatianadev/madakitecamp" target="_blank" class="inline-flex items-center px-3 py-1 border border-gray-300 text-white rounded hover:bg-gray-100 transition text-sm">
+                  <a href="https://github.com/njakatianadev/madakitecamp" target="_blank"
+                    class="inline-flex items-center px-3 py-1 border border-gray-300 rounded text-sm
+                            text-gray-700 hover:bg-gray-800 hover:text-white transition duration-300">
                     <i class="fab fa-github mr-1"></i> GitHub
                   </a>
                 </div>
@@ -196,6 +203,7 @@ title: Accueil
         <i class="fas fa-chevron-right text-purple-600 group-hover:text-white text-sm"></i>
       </div>
     </div>
+
   </div>
 </section>
 
