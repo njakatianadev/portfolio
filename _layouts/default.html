@@ -98,7 +98,7 @@
         x-transition:leave="transition transform duration-300 ease-in"
         x-transition:leave-start="translate-x-0 opacity-100"
         x-transition:leave-end="-translate-x-full opacity-0"
-        class="lg:hidden fixed top-0 left-0 w-3/4 h-screen bg-[#1A0A40]/90 backdrop-blur-md px-4 pt-24 pb-4 z-40 transform"
+        class="lg:hidden fixed top-0 left-0 w-3/4 h-screen bg-blue px-4 pt-24 pb-4 z-40 transform"
         @click.away="open = false"
       >
         <a
@@ -191,19 +191,17 @@
               </a>
             </div>
 
-            <div
-              class="flex flex-wrap justify-center md:justify-start space-x-4"
-            >
+            <div class="flex-cust mb-3">
               <a
                 href="#contact"
-                class="bg-[#7300FF] hover:bg-[#5e00cc] text-white font-semibold text-base px-6 py-2.5 mb-3 rounded-full shadow-md hover:shadow-lg transition"
+                class="bg-[#7300FF] hover:bg-[#5e00cc] text-white font-semibold text-base px-6 py-2.5 rounded-full shadow-md hover:shadow-lg transition"
               >
                 Recrutez-moi
               </a>
               <a
                 href="{{ '/assets/CV_Andriambololomahefa_Solofo_Njakatiana.pdf' | relative_url }}"
                 download
-                class="border mb-3 border-[#a855f7] text-[#a855f7] px-5 py-2 rounded-full transition"
+                class="border border-[#a855f7] text-[#a855f7] px-5 py-2 rounded-full transition"
               >
                 Téléchargez mon CV
               </a>
@@ -257,7 +255,10 @@
         },
       });
 
-      AOS.init();
+      AOS.init({
+        disable: "mobile", // désactive AOS sur mobile
+        once: true, // animation une seule fois
+      });
     </script>
     <script
       defer

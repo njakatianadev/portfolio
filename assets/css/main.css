@@ -21,3 +21,17 @@ html {
   height: 40px !important;
   border-radius: 9999px !important; /* Pour forcer le rond */
 }
+
+/* Par défaut : mobile */
+.flex-cust {
+  display: flex;
+  flex-direction: column; /* superposé par défaut */
+  gap: 1rem; /* équivalent à gap-4 Tailwind */
+}
+
+/* Desktop moyen : ≥ 768px (taille md) */
+@media (min-width: 768px) {
+  .flex-cust {
+    flex-direction: row; /* côte à côte */
+  }
+}
