@@ -222,9 +222,10 @@ title: Accueil
               <i class="fas fa-phone text-[#7f00ff]"></i> +261 34 28 089 52
             </a>
           </p>
-          <p class="flex items-center gap-3 mt-2">
+          <p class="contact-line">
             <a href="mailto:andriambololomahefa@gmail.com">
-              <i class="fas fa-envelope text-[#7f00ff]"></i> andriambololomahefa@gmail.com
+              <i class="fas fa-envelope text-[#7f00ff]"></i> 
+              <span class="contact-email">andriambololomahefa@gmail.com</span>
             </a>
           </p>
         </div>

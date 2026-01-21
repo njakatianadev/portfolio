@@ -1710,6 +1710,38 @@ html {
   background-color: #1a0a40;
 }
 
+/* Conteneur de la ligne email */
+.contact-line {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%; /* largeur limitée */
+  min-width: 0; /* très important pour le flex */
+}
+
+/* Icône */
+.contact-line i {
+  flex-shrink: 0; /* l’icône ne rétrécit pas */
+}
+
+/* Lien */
+.contact-line a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-width: 0; /* autorise le texte à se couper */
+  text-decoration: none;
+}
+
+/* Texte email tronqué */
+.contact-email {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
 /* Desktop moyen : ≥ 768px (taille md) */
 @media (min-width: 768px) {
   .flex-cust {
